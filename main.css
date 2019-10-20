@@ -1,7 +1,3 @@
-:root {
-    --hover-color: #007acc;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +54,7 @@ nav {
     line-height: 60px;
 }
 
-.wrapper-nav ul li{
+.wrapper-nav ul li {
     position: relative;
     float: right;
     list-style: none;
@@ -73,7 +69,7 @@ nav {
 }
 
 .wrapper-nav ul li a:hover {
-    color: var(--hover-color);
+    color: #007acc;
 }
 
 header img {
