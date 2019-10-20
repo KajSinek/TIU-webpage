@@ -1,0 +1,161 @@
+:root {
+    --hover-color: #007acc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*******************
+****** GLOBAL ******
+*******************/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(30, 30, 30);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/*******************
+****** HEADER ******
+*******************/
+
+header {
+    width: 100%;
+    height: 10%;
+}
+
+nav {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 6%;
+    background-image: linear-gradient(to left, rgb(30, 30, 30), rgb(80, 80, 80));
+    z-index: 1000;
+}
+
+.wrapper-nav {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrapper-nav ul {
+    line-height: 60px;
+}
+
+.wrapper-nav ul li{
+    position: relative;
+    float: right;
+    list-style: none;
+    padding-right: 3%;
+}
+
+.wrapper-nav ul li a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    transition: all 0.15s ease-in-out;
+    font-size: 24px;
+}
+
+.wrapper-nav ul li a:hover {
+    color: var(--hover-color);
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+/*******************
+******* MAIN *******
+*******************/
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#team {
+    height: auto;
+    padding-top: 6%;
+}
+
+#team h1 {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#team p {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#members {
+    height: auto;
+    padding-top: 6%;
+}
+
+.member {
+    margin-bottom: 5%;
+}
+
+.member div p {
+    text-align: justify;
+}
+
+.member div ul li {
+    list-style: none;
+}
+
+.member img {
+    width: 15%;
+    margin: 0 2%;
+    float: left;
+}
+
+/*******************
+******* MAIN *******
+*******************/
+
+footer {
+    height: 130px;
+}
+
+footer div,
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+footer div {
+    height: 35%;
+    background-color: rgb(130, 130, 130);
+}
+
+footer div a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    height: 65%;
+    background-color: rgb(30, 30, 30);
+}
